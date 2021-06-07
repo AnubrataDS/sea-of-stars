@@ -2,6 +2,8 @@
 
 Three.js starter project based off Yuri Artyukh's YouTube tutorials.
 
+This project uses plain js and parcel bundler.
+
 I recreated this to use as a base for my own future WebGl experiments.
 
 Check out Yuri's work :
@@ -16,8 +18,10 @@ Check out Yuri's work :
 
 ## Running
 
-Start dev server: `parcel index.html`
+Start dev server: `parcel index.html`  
+Build dev: `parcel build index.html`  
+Build prod: `parcel build app.js`
 
 Hot reload is enabled by default.  
-Disable cache with `--no-cache` if required
+Disable cache with `--no-cache` if required  
 Refer [parcel CLI docs](https://parceljs.org/cli.html) for any other info.

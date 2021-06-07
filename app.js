@@ -22,6 +22,16 @@ export default class Sketch {
 
     this.addMesh();
     this.render();
+
+    window.addEventListener(
+      "resize",
+      () => {
+        this.camera.aspect = window.innerWidth / window.innerHeight;
+        this.camera.updateProjectionMatrix();
+        this.renderer.setSize(window.innerWidth, window.innerHeight);
+      },
+      false
+    );
   }
   addMesh() {
     this.geometry = new THREE.PlaneBufferGeometry(1, 1);

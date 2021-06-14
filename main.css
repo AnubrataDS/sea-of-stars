@@ -26,6 +26,7 @@ canvas {
   padding-top: 10rem;
   font-size: 10rem;
   mix-blend-mode: difference;
+  will-change: opacity;
   font-family: "Staatliches", cursive;
   color: white;
 }

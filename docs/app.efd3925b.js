@@ -36305,7 +36305,7 @@ if (typeof window !== 'undefined') {
   }
 }
 },{}],"udCG":[function(require,module,exports) {
-module.exports = "/sus.045a3e3c.png";
+module.exports = "sus.045a3e3c.png";
 },{}],"x87H":[function(require,module,exports) {
 "use strict";
 
@@ -38197,7 +38197,7 @@ module.exports = "#define GLSLIFY 1\nvarying vec2 vUv;\nuniform float time;\nvar
 },{}],"k6p3":[function(require,module,exports) {
 module.exports = "#define GLSLIFY 1\nuniform float time;\nvarying vec3 pos;\nuniform sampler2D mask;\nfloat rand(float n) {\n    return fract(sin(n) * 43758.5453123);\n}\nfloat rand(float a, float b, float t) {\n    return a + (b - a) * rand(t);\n}\nvoid main() {\n    //gl_FragColor = vec4((abs(pos.x) / 256.) * sin(time * 0.01), abs(pos.y) / 256., abs(pos.z) / 256., 1.);\n    vec4 maskTexture = texture2D(mask, gl_PointCoord);\n    //gl_FragColor = vec4(1., 1., 1., 1.);\n    gl_FragColor = maskTexture;\n}";
 },{}],"Toyq":[function(require,module,exports) {
-module.exports = "/particle_mask.a0fac778.jpg";
+module.exports = "particle_mask.a0fac778.jpg";
 },{}],"A2T1":[function(require,module,exports) {
 "use strict";
 
@@ -38370,4 +38370,4 @@ var Sketch = /*#__PURE__*/function () {
 exports.default = Sketch;
 new Sketch();
 },{"three":"gBK8","./img/sus.png":"udCG","three/examples/jsm/controls/OrbitControls":"x87H","three/examples/jsm/postprocessing/UnrealBloomPass":"wCLM","three/examples/jsm/postprocessing/RenderPass":"MKz1","three/examples/jsm/postprocessing/EffectComposer":"B2Uy","three/examples/jsm/postprocessing/ShaderPass":"CgT9","three/examples/jsm/shaders/RGBShiftShader":"vUZc","./shaders/vertex.glsl":"hNHB","./shaders/fragment.glsl":"k6p3","./img/particle_mask.jpg":"Toyq"}]},{},["A2T1"], null)
-//# sourceMappingURL=/app.efd3925b.js.map
+//# sourceMappingURL=app.efd3925b.js.map
